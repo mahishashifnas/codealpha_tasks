@@ -1,0 +1,11 @@
+public class Room {
+    int roomNumber;
+    String category;
+    boolean isAvailable;
+
+    Room(int roomNumber,String category){
+        this.roomNumber = roomNumber;
+        this.category = category;
+        this.isAvailable = true;
+    }
+}
